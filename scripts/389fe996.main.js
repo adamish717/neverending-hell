@@ -1,0 +1,1 @@
+"use strict";var $root=$("html, body");$("a").click(function(){var a=$.attr(this,"href");return $root.animate({scrollTop:$(a).offset().top},500,function(){window.location.hash=a}),!1});
