@@ -1,3 +1,4 @@
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -5,10 +6,56 @@
   padding: 0.2em 0;
 }
 
+
+.card-box {
+  border: 5px solid;
+  height: 250px;
+  width: 100%;
+}
+
+.learn-more-box {
+  color: #264862;
+  border: 5px solid;
+  border-radius: 10px;
+  height: 150px;
+  width: 100%;
+}
+
+.learn-more-box:hover {
+  color: #543256;
+}
+
+.buy-now-circle {
+  margin: 0 auto;
+  color: #264862;
+  border: 5px solid;
+  border-radius: 500px;
+  height: 150px;
+  width: 150px;
+}
+.buy-now-circle:hover {
+  color: #543256;
+}
+
+.divide {
+  width: 100%;
+  border-bottom: 5px solid;
+  color: #grey;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #c5c5c5;
+  background-image: url(../images/bg.png);
+  background-attachment: fixed;
+  font-weight:300;
+  font-size:16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height:28px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -19,24 +66,26 @@ body {
   padding-right: 15px;
 }
 
-/* Custom page header */
+/* Custom page header
 .header {
   border-bottom: 1px solid #e5e5e5;
 }
+*/
+
 
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+/*  line-height: 40px;
+  padding-bottom: 19px; */
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 1px solid #e5e5e5;
+/*  border-top: 1px solid #e5e5e5; */
 }
 
 .container-narrow > hr {
@@ -86,4 +135,90 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+
+
+/* ==================================================
+   Basic Styles
+================================================== */
+
+
+strong {
+    font-weight: 700;
+}
+
+.align-left{
+  float:left;
+  margin:0 25px 0 0px!important;
+}
+
+.align-right{
+  float:right;
+  margin:0 0 0 25px!important;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+
+
+/* ==================================================
+   Typography
+================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin:0 0 20px 0;
+  color:#4C4F55;
+  font-weight:300;
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.5em;
+}
+
+h1{
+  font-size:48px;
+}
+
+h2{
+  font-size:36px;
+}
+
+h3{
+  font-size:24px;
+}
+
+h4{
+  font-size:20px;
+}
+
+h5{
+  font-size:18px;
+}
+
+h6{
+  font-size:16px;
+}
+
+h3.spec {
+  color: #4C4F55;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1em;
+    margin-bottom: 30px;
+  padding-top: 0.4em;
+    text-transform: uppercase;
 }
